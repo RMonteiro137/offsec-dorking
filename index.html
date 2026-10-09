@@ -478,7 +478,7 @@ const categories = [
       { title: "Sub-Subdomains",      icon: "🌱", tag: "google",    url: "https://www.google.com/search?q=site:*.*.{T}" },
       { title: "Shodan Search",       icon: "📡", tag: "shodan",    url: "https://www.shodan.io/search?query={T}" },
       { title: "Digital Ocean Space", icon: "🌊", tag: "google",    url: "https://www.google.com/search?q=site:digitaloceanspaces.com%20%22{T}%22" },
-      { title: "S3 Buckets",          icon: "🪣", tag: "google",    url: "https://www.google.com/search?q=site:.s3.amazonaws.com%20%22{T}%22" },
+      { title: "Cloud Buckets / Storage", icon: "🪣", tag: "google", url: "https://www.google.com/search?q=(site:s3.amazonaws.com%20OR%20site:storage.googleapis.com%20OR%20site:blob.core.windows.net)%20%22{T}%22" }
       { title: "OpenBugBounty",       icon: "🐛", tag: "obb",       url: "https://www.openbugbounty.org/search/?search={T}" },
       { title: "Security Headers",    icon: "🔒", tag: "sechdrs",   url: "https://securityheaders.com/?q={T}&followRedirects=on" },
     ]
